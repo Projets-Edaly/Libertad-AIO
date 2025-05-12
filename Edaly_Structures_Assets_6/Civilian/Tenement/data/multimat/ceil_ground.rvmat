@@ -1,0 +1,36 @@
+ambient[]		= {1,1,1,1};
+diffuse[]		= {0.65,0.65,0.65,1};
+forcedDiffuse[]	= {0,0,0,0};
+emmisive[]		= {0,0,0,1};
+specular[]		= {0.05,0.05,0.05,1};
+specularPower	= 20;
+PixelShaderID	= "Multi";
+VertexShaderID	= "Multi";
+// BLACK
+class TexGen0 	{uvSource="tex";	class uvTransform{aside[]={1,0,0};	up[]={0,1,0};	dir[]={0,0,1};	pos[]={0,0,0};};};
+class TexGen5 	{uvSource="tex";	class uvTransform{aside[]={1,0,0};	up[]={0,1,0};	dir[]={0,0,1};	pos[]={0,0,0};};};
+class Stage0	{texture="Edaly_Data_1\marble\bianco_antico_granite_herringbone_tiles_grey_co.paa";				texGen="0";};
+class Stage5	{texture="Edaly_Data_1\marble\bianco_antico_granite_herringbone_tiles_grey_dtsmdi.paa";			texGen="5";};
+class Stage11	{texture="Edaly_Data_1\marble\bianco_antico_granite_herringbone_tiles_grey_nohq.paa";			texGen="0";};
+// RED
+class TexGen1 	{uvSource="tex";	class uvTransform{aside[]={1,0,0};	up[]={0,1,0};	dir[]={0,0,1};	pos[]={0,0,0};};};
+class TexGen6 	{uvSource="tex";	class uvTransform{aside[]={1,0,0};	up[]={0,1,0};	dir[]={0,0,1};	pos[]={0,0,0};};};
+class Stage1	{texture="Edaly_Data_1\concret\concrete_smooth_co.paa";					texGen="1";};
+class Stage6	{texture="Edaly_Data_1\concret\concrete_smooth_dtsmdi.paa";				texGen="6";};
+class Stage12	{texture="Edaly_Data_1\concret\concrete_smooth_nohq.paa";				texGen="1";};
+// GREEN
+class TexGen2 	{uvSource="tex";	class uvTransform{aside[]={1,0,0};	up[]={0,1,0};	dir[]={0,0,1};	pos[]={0,0,0};};};
+class TexGen7 	{uvSource="tex";	class uvTransform{aside[]={1,0,0};	up[]={0,1,0};	dir[]={0,0,1};	pos[]={0,0,0};};};
+class Stage2	{texture="Edaly_Data_1\marble\al_andalus_grid_tiles_grey_co.paa";								texGen="2";};
+class Stage7	{texture="Edaly_Data_1\marble\al_andalus_grid_tiles_grey_dtsmdi.paa";							texGen="7";};
+class Stage13	{texture="Edaly_Data_1\marble\al_andalus_grid_tiles_grey_nohq.paa";								texGen="2";};
+// BLUE
+class TexGen3 	{uvSource="tex";	class uvTransform{aside[]={1,0,0};	up[]={0,1,0};	dir[]={0,0,1};	pos[]={0,0,0};};};
+class Stage3	{texture="Edaly_Data_1\concret\concrete_smooth_co.paa";					texGen="3";};
+class Stage8	{texture="Edaly_Data_1\concret\concrete_smooth_dtsmdi.paa";				texGen="3";};
+class Stage14	{texture="Edaly_Data_1\concret\concrete_smooth_nohq.paa";				texGen="3";};
+// MASK, MC, AS/ADS
+class TexGen4 	{uvSource="tex1";	class uvTransform{aside[]={1,0,0};	up[]={0,1,0};	dir[]={0,0,1};	pos[]={0,0,0};};};
+class Stage4	{texture="Edaly_Structures_Assets_6\Civilian\Tenement\data\multimat\mask\ceil_ground_mask.paa";					texGen="4";};
+class Stage9	{texture="#(argb,8,8,3)color(0,0,0,0,MC)";																		texGen="4";};
+class Stage10	{texture="Edaly_Structures_Assets_6\Civilian\Tenement\data\multimat\mask\ceil_ground_ads.paa";					texGen="4";};
