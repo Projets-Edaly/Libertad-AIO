@@ -1,0 +1,32 @@
+ambient[] = {1,1,1,1};
+forcedDiffuse[] = {1,1,1,1};
+emmisive[] = {1,1,1,1};
+diffuse[] = {1.0,1.0,1.0,1.0};
+specular[] = {0.0515,0.052,0.0512,0.51};
+specularPower = 8;
+PixelShaderID = "TreeAdv";
+VertexShaderID = "TreeAdvTrunk";
+class Stage1
+{
+	texture = "Edaly_Vegetation\Tree\Tropic_03\data\T_Tree_Banyan_01_TR_nohq.paa";
+	uvSource = "tex";
+	class uvTransform
+	{
+		aside[] = {1,0,0};
+		up[] = {0,1,0};
+		dir[] = {0,0,0};
+		pos[] = {0,0,0};
+	};
+};
+class Stage2
+{
+	texture = "a3\vegetation_f_exp\tree\data\t_inocarpus_f_lod1_geometry_mca.paa";
+	uvSource = "tex1";
+	class uvTransform
+	{
+		aside[] = {1,0,0};
+		up[] = {0,1,0};
+		dir[] = {0,0,0};
+		pos[] = {0,0,0};
+	};
+};

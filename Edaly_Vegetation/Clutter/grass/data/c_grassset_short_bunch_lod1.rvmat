@@ -1,0 +1,20 @@
+////////////////////////////////////////////////////////////////////
+//DeRap: vegetation_f_exp\clutter\grass\data\c_grassset_short_bunch_lod1.rvmat
+//Produced from mikero's Dos Tools Dll version 7.16
+//https://armaservices.maverick-applications.com/Products/MikerosDosTools/default
+//'now' is Sat Sep 14 10:38:48 2019 : 'file' last modified on Tue Mar 06 15:01:17 2018
+////////////////////////////////////////////////////////////////////
+
+#define _ARMA_
+
+mainLight = "Sun";
+fogMode = "Fog";
+ambient[] = {0.6,0.6,0.6,1.0};
+diffuse[] = {0.3,0.3,0.3,1};
+forcedDiffuse[] = {0.3,0.3,0.3,1};
+emmisive[] = {0,0,0,1};
+specular[] = {0,0,0,1};
+specularPower = 1;
+renderFlags[] = {"AlphaTest32"};
+PixelShaderID = "Grass";
+VertexShaderID = "Grass";

@@ -1,0 +1,41 @@
+////////////////////////////////////////////////////////////////////
+//DeRap: vegetation_f_exp\Tree\data\t_Inocarpus_F_LOD1_noatlas.rvmat
+//Produced from mikero's Dos Tools Dll version 7.16
+//https://armaservices.maverick-applications.com/Products/MikerosDosTools/default
+//'now' is Sat Sep 14 10:38:55 2019 : 'file' last modified on Tue Mar 06 15:01:21 2018
+////////////////////////////////////////////////////////////////////
+
+#define _ARMA_
+
+ambient[] = {1,1,1,1};
+forcedDiffuse[] = {1,1,1,1};
+emmisive[] = {1,1,1,1};
+diffuse[] = {1.0,1.0,1.0,1.0};
+specular[] = {0.25,0.3,0.22,0.75};
+specularPower = 10;
+PixelShaderID = "TreeAdvTrunk";
+VertexShaderID = "TreeAdvTrunk";
+class Stage1
+{
+	texture = "a3\vegetation_f_exp\_barks\inocarpus_bark_combine_nohq.paa";
+	uvSource = "tex";
+	class uvTransform
+	{
+		aside[] = {1.0,0,0};
+		up[] = {0,1.0,0};
+		dir[] = {0,0,0};
+		pos[] = {0,0,0};
+	};
+};
+class Stage2
+{
+	texture = "a3\vegetation_f_exp\tree\data\t_inocarpus_f_lod1_trunk_mca.paa";
+	uvSource = "tex1";
+	class uvTransform
+	{
+		aside[] = {1,0,0};
+		up[] = {0,1,0};
+		dir[] = {0,0,0};
+		pos[] = {0,0,0};
+	};
+};

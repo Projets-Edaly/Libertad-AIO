@@ -1,0 +1,11 @@
+mainLight = "Sun";
+fogMode = "Fog";
+ambient[] = {1.0,1.0,1.0,1};
+diffuse[] = {0.3,0.3,0.3,1};
+forcedDiffuse[] = {0.3,0.3,0.3,1};
+emmisive[] = {0,0,0,1};
+specular[] = {0,0,0,1};
+specularPower = 1;
+renderFlags[] = {"AlphaTest32"};
+PixelShaderID = "Grass";
+VertexShaderID = "Grass";
