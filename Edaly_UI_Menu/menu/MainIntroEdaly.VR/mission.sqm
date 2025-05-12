@@ -1,0 +1,214 @@
+version=53;
+class EditorData
+{
+	moveGridStep=1;
+	angleGridStep=0.2617994;
+	scaleGridStep=1;
+	autoGroupingDist=10;
+	toggles=1;
+	class ItemIDProvider
+	{
+		nextID=2;
+	};
+	class Camera
+	{
+		pos[]={904.44727,15,6563.4478};
+		dir[]={0.33191305,-0.17364819,0.92718929};
+		up[]={0.058525223,0.98480767,0.16348849};
+		aside[]={0.94149256,3.7252903e-009,-0.33703333};
+	};
+};
+binarizationWanted=0;
+addons[]=
+{
+	"A3_Characters_F",
+	"Edaly_Weapons_2",
+	"Edaly_Weapons_1",
+	"A3_Weapons_F",
+	"task_force_radio_items",
+	"Edaly_Items_Config",
+	"Edaly_Characters_Headgear_1",
+	"Edaly_Character",
+	"A3_Weapons_F_Items"
+};
+class AddonsMetaData
+{
+	class List
+	{
+		items=8;
+		class Item0
+		{
+			className="A3_Characters_F";
+			name="Arma 3 Alpha - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item1
+		{
+			className="Edaly_Weapons_2";
+			name="Edaly_Weapons_2";
+			author="Projets Edaly";
+			url="https://www.edaly.fr";
+		};
+		class Item2
+		{
+			className="Edaly_Weapons_1";
+			name="Edaly_Weapons_1";
+			author="Projets Edaly";
+			url="https://www.edaly.fr";
+		};
+		class Item3
+		{
+			className="A3_Weapons_F";
+			name="Arma 3 Alpha - Weapons and Accessories";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item4
+		{
+			className="task_force_radio_items";
+			name="task_force_radio_items";
+			author="[TF]Nkey";
+			url="https://github.com/michail-nikolaev/task-force-arma-3-radio";
+		};
+		class Item5
+		{
+			className="Edaly_Items_Config";
+			name="Edaly_Items_Config";
+			author="Projets Edaly";
+			url="https://www.edaly.fr";
+		};
+		class Item6
+		{
+			className="Edaly_Characters_Headgear_1";
+			name="Edaly_Characters_Headgear_1";
+			author="Projets Edaly";
+			url="https://www.edaly.fr";
+		};
+		class Item7
+		{
+			className="Edaly_Character";
+			name="Edaly_Character";
+			author="Projets Edaly";
+			url="https://www.edaly.fr";
+		};
+	};
+};
+randomSeed=9910363;
+class ScenarioData
+{
+	author="Moonie";
+};
+class Intro
+{
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		day=28;
+		hour=13;
+		minute=37;
+		startFogDecay=0.014;
+		forecastFogDecay=0.014;
+	};
+	class Entities
+	{
+		items=1;
+		class Item0
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={908.30225,5.0014391,6583.9785};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						isPlayer=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="Edaly_FALZ";
+								class primaryMuzzleMag
+								{
+									name="15Rnd_762x51_FNFAL";
+									ammoLeft=15;
+								};
+							};
+							class uniform
+							{
+								typeName="Edaly_C_Police_01";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="30Rnd_556x45_Stanag_red";
+										count=3;
+										ammoLeft=30;
+									};
+									class Item1
+									{
+										name="SmokeShellBlue";
+										count=2;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="Chemlight_blue";
+										count=4;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="15Rnd_762x51_FNFAL";
+										count=3;
+										ammoLeft=15;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="tf_microdagr";
+							radio="tf_anprc148jem_1";
+							goggles="Edaly_Cigar_01_F";
+							headgear="Patrol_Cap_01_F";
+						};
+					};
+					id=1;
+					type="B_RangeMaster_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=0;
+		};
+	};
+};
