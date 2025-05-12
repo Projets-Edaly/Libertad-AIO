@@ -1,0 +1,12 @@
+name = "Edaly: Libertad - Dev Build";
+picture = "mod_logo_ca.paa";
+actionName = "Website";
+action = "https://edaly.fr";
+description = "Internal Alpha Devbuild";
+logo = "mod_logo_ca.paa";
+logoOver = "mod_logo_ca.paa";
+tooltip = "Edaly: Libertad";
+overview = "Internal Alpha Devbuild";
+author = "Projets Edaly";
+overviewPicture = "mod_logo_ca.paa";
+overviewText = "empty";

@@ -1,0 +1,19 @@
+*.txt
+*.bak
+*.pbo
+*.ebo
+*.bat
+*.bin
+*.bikey
+*.biprivatekey
+**/temp
+Edaly Arma Addons\.iml
+\.idea/
+build2\.ps1
+config*.xml
+ToPaa.ps1
+Edaly_UI_Menu/data/lamapin.psd
+*.psd
+*.ps1
+*.obf
+*.iAvatar
